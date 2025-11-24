@@ -61,7 +61,7 @@ export default function AgentCanvasDemo() {
     <section className="bg-black py-16 md:py-24">
       <div className="container mx-auto max-w-[1312px] px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-          <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12">
+          <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12 !w-[608px] !h-[492px]">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-3">
                 <LayoutGrid className="w-7 h-7 text-white" />
@@ -104,7 +104,7 @@ export default function AgentCanvasDemo() {
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763951725733-fdapgnpi4x.png"
                 alt="Drift Studio interface showing appointment booking scenario"
                 fill
-                className="object-cover !w-full !h-[640px] !max-w-full" />
+                className="object-cover !w-[98%] !h-[452px] !max-w-[98%]" />
 
             </div>
           </div>
