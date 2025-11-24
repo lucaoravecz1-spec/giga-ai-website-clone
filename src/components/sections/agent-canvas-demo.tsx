@@ -66,7 +66,7 @@ export default function AgentCanvasDemo() {
               <div className="flex items-center gap-3">
                 <LayoutGrid className="w-7 h-7 text-white" />
                 <span
-                  className="bg-clip-text bg-gradient-to-r from-white to-white/70 text-2xl font-medium"
+                  className="bg-clip-text bg-gradient-to-r from-white to-white/70 text-2xl font-medium !text-black"
                   style={{
                     background:
                     "linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.7) 100%)"
