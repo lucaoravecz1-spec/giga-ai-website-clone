@@ -104,7 +104,7 @@ export default function AgentCanvasDemo() {
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763951725733-fdapgnpi4x.png"
                 alt="Drift Studio interface showing appointment booking scenario"
                 fill
-                className="object-cover !w-full !h-[638px] !max-w-full" />
+                className="object-cover !w-full !h-[642px] !max-w-full" />
 
             </div>
           </div>
