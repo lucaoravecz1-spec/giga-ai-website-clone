@@ -27,7 +27,7 @@ const Soc2Badge = () =>
 const CompliantBadge = () =>
 <div className="border border-border rounded-full px-4 flex flex-col justify-center items-center text-center !w-[34%] !h-full">
     <span className="text-xs font-semibold text-text-tertiary leading-none">Compliant</span>
-    <span className="text-2xl font-bold text-text-primary leading-tight">5+</span>
+    <span className="text-2xl font-bold text-text-primary leading-tight !w-[43px] !h-[30px]">5+</span>
   </div>;
 
 
