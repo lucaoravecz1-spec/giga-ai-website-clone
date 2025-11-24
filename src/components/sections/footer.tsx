@@ -17,7 +17,7 @@ const DriftLogo = () =>
 
 
 const Soc2Badge = () =>
-<div className="border border-border rounded-xl p-3 flex flex-col justify-between items-center text-center !w-[118px] !h-[86px]">
+<div className="border border-border rounded-xl p-3 flex flex-col justify-between items-center text-center !w-[106px] !h-[97px]">
     <span className="text-sm font-medium text-text-tertiary">SOC</span>
     <span className="text-2xl font-bold text-text-primary leading-none">2</span>
     <span className="text-[8px] font-medium tracking-widest uppercase text-text-tertiary">Certification</span>
