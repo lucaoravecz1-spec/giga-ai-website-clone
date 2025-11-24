@@ -6,12 +6,12 @@ import { useInView } from "react-intersection-observer";
 const AnimatedCounter = ({
   end,
   suffix = "",
-  duration = 2000,
-}: {
-  end: number;
-  suffix?: string;
-  duration?: number;
-}) => {
+  duration = 2000
+
+
+
+
+}: {end: number;suffix?: string;duration?: number;}) => {
   const [count, setCount] = useState(0);
   const requestRef = useRef<number>();
   const startTimeRef = useRef<number>();
@@ -47,19 +47,19 @@ const AnimatedCounter = ({
     <span className="text-white font-light text-[80px] leading-none tracking-tight">
       {count}
       {suffix}
-    </span>
-  );
+    </span>);
+
 };
 
 const metricsData = [
-  { label: "CALL ANSWER RATE", value: 99, suffix: "%" },
-  { label: "VOICE OPTIONS", value: 50, suffix: "+" },
-];
+{ label: "CALL ANSWER RATE", value: 99, suffix: "%" },
+{ label: "VOICE OPTIONS", value: 50, suffix: "+" }];
+
 
 export default function MetricsSection() {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.3,
+    threshold: 0.3
   });
 
   return (
@@ -72,23 +72,23 @@ export default function MetricsSection() {
             </p>
           </div>
           <div className="lg:col-span-7 flex flex-col sm:flex-row gap-12 sm:gap-16 justify-start lg:justify-end">
-            {metricsData.map((metric) => (
-              <div key={metric.label}>
-                <p className="text-text-tertiary uppercase text-xs font-semibold tracking-[0.1em] mb-6">
+            {metricsData.map((metric) =>
+            <div key={metric.label}>
+                <p className="text-text-tertiary uppercase text-xs font-semibold tracking-[0.1em] mb-6 !whitespace-pre-line">
                   {metric.label}
                 </p>
-                {inView ? (
-                  <AnimatedCounter end={metric.value} suffix={metric.suffix} />
-                ) : (
-                  <span className="text-white font-light text-[80px] leading-none tracking-tight">
+                {inView ?
+              <AnimatedCounter end={metric.value} suffix={metric.suffix} /> :
+
+              <span className="text-white font-light text-[80px] leading-none tracking-tight">
                     0{metric.suffix}
                   </span>
-                )}
+              }
               </div>
-            ))}
+            )}
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 }
