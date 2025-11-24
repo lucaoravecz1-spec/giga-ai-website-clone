@@ -39,7 +39,7 @@ const StepItem = ({ title, description, isActive, isLast }: StepProps) =>
 
       {!isLast && <div className="h-full w-0.5 bg-white/10" />}
     </div>
-    <div className={`pb-8 ${isLast ? "pb-0" : ""}`}>
+    <div className={`pb-8 !w-[919px] !h-8 ${isLast ? "pb-0" : ""}`}>
       <p
       className={`font-medium !whitespace-pre-line ${
       isActive ? "text-white" : "text-white/40"} text-lg leading-[1.3]`
