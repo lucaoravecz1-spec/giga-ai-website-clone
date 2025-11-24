@@ -8,7 +8,7 @@ const DriftLogo = () =>
     alt="Drift AI Logo"
     width={36}
     height={36}
-    className="brightness-0 invert" />
+    className="brightness-0 invert !w-9 !h-full !max-w-9" />
 
     <span className="font-body text-[28px] font-bold tracking-tight text-text-primary !font-(family-name:--font-raleway) !w-[98px] !h-[33px]">
       Drift AI
