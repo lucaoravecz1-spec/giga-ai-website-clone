@@ -41,7 +41,7 @@ const StepItem = ({ title, description, isActive, isLast }: StepProps) =>
     </div>
     <div className={`pb-8 flex-1 ${isLast ? "pb-0" : ""}`}>
       <p
-      className={`font-medium ${
+      className={`font-medium !w-full !h-full ${
       isActive ? "text-white" : "text-white/40"} text-lg leading-[1.3]`
       }>
 
@@ -61,7 +61,7 @@ export default function AgentCanvasDemo() {
     <section className="bg-black py-16 md:py-24">
       <div className="container mx-auto max-w-[1312px] px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-          <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12 !w-[608px] !h-[492px]">
+          <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12 !w-[608px] !h-[200px]">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-3">
                 <LayoutGrid className="w-7 h-7 text-white" />
