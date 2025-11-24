@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="py-16 lg:py-20">
           <div className="flex flex-col lg:flex-row gap-16 lg:gap-8">
-            <div className="flex-shrink-0 lg:w-1/3">
+            <div className="flex-shrink-0 lg:!w-[33.3%] !h-[42px]">
               <DriftLogo />
             </div>
 
