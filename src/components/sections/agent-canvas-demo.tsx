@@ -105,7 +105,7 @@ export default function AgentCanvasDemo() {
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-11-23-at-12.24.11-PM-1763950472752.png?width=8000&height=8000&resize=contain"
                 alt="Drift Studio interface showing appointment booking scenario"
                 fill
-                className="object-cover !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763866462142-w5wvrp2txyg.png)] !bg-cover !bg-center !bg-none !text-[10px] !w-[84px] !h-[323px] !max-w-[84px]" />
+                className="object-cover !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763866462142-w5wvrp2txyg.png)] !bg-cover !bg-center !bg-none !text-[10px] !w-[84px] !h-5 !max-w-[84px]" />
 
             </div>
           </div>
