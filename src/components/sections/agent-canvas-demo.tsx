@@ -102,7 +102,7 @@ export default function AgentCanvasDemo() {
           <div className="relative">
             <div className="relative aspect-[1.122] rounded-3xl overflow-hidden !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763866516526-s33l1s8kow.png)] !bg-cover !bg-center !w-[103%] !h-full">
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-11-23-at-12.24.11-PM-1763950676593.png?width=8000&height=8000&resize=contain"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763950752342-dbbsa6daxh.png"
                 alt="Drift Studio interface showing appointment booking scenario"
                 fill
                 className="object-cover !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763866462142-w5wvrp2txyg.png)] !bg-cover !bg-center !bg-none !text-[10px] !w-[84px] !h-5 !max-w-[84px]" />
