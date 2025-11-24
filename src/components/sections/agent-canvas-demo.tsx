@@ -30,7 +30,7 @@ const steps: StepProps[] = [
 
 
 const StepItem = ({ title, description, isActive, isLast }: StepProps) =>
-<li className="flex gap-6 !w-full !h-[55px]">
+<li className="flex gap-6">
     <div className="flex flex-col items-center">
       <div
       className={`w-0.5 flex-grow ${
@@ -39,9 +39,9 @@ const StepItem = ({ title, description, isActive, isLast }: StepProps) =>
 
       {!isLast && <div className="h-full w-0.5 bg-white/10" />}
     </div>
-    <div className={`pb-8 !w-[919px] !h-8 ${isLast ? "pb-0" : ""}`}>
+    <div className={`pb-8 flex-1 ${isLast ? "pb-0" : ""}`}>
       <p
-      className={`font-medium !whitespace-pre-line ${
+      className={`font-medium ${
       isActive ? "text-white" : "text-white/40"} text-lg leading-[1.3]`
       }>
 
@@ -58,21 +58,20 @@ const StepItem = ({ title, description, isActive, isLast }: StepProps) =>
 
 export default function AgentCanvasDemo() {
   return (
-    <section className="bg-black py-16 md:py-24 !w-full !h-[622px]">
+    <section className="bg-black py-16 md:py-24">
       <div className="container mx-auto max-w-[1312px] px-4 md:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start !w-[853px] !h-full">
-          <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12 !w-[91%] !h-[645px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+          <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-3">
                 <LayoutGrid className="w-7 h-7 text-white" />
                 <span
-                  className="bg-clip-text bg-gradient-to-r from-white to-white/70 text-2xl font-medium !whitespace-pre-line !whitespace-pre-line !whitespace-pre-line !text-black !w-[155px] !h-full !bg-white"
+                  className="bg-clip-text bg-gradient-to-r from-white to-white/70 text-2xl font-medium"
                   style={{
                     background:
                     "linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.7) 100%)"
                   }}>
-
-
+                  Agent Canvas
                 </span>
               </div>
               <p className="text-xl text-white/60 max-w-md">
@@ -100,12 +99,12 @@ export default function AgentCanvasDemo() {
           </div>
 
           <div className="relative">
-            <div className="relative aspect-[1.122] rounded-3xl overflow-hidden !bg-cover !bg-center !bg-cover !bg-center !bg-none !bg-cover !bg-center !bg-cover !bg-center !bg-cover !bg-center !bg-cover !bg-center !bg-cover !bg-center !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763951364770-jh93mq24cse.png)] !bg-cover !bg-center !w-[442px] !h-full">
+            <div className="relative aspect-[1.122] rounded-3xl overflow-hidden">
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763950752342-dbbsa6daxh.png"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763951725733-fdapgnpi4x.png"
                 alt="Drift Studio interface showing appointment booking scenario"
                 fill
-                className="object-cover !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d/visual-edit-uploads/1763866462142-w5wvrp2txyg.png)] !bg-cover !bg-center !bg-none !text-[10px] !w-[81px] !h-5 !max-w-[81px]" />
+                className="object-cover" />
 
             </div>
           </div>

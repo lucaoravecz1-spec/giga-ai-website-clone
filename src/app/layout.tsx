@@ -16,7 +16,7 @@ export default function RootLayout({
 
 }: Readonly<{children: React.ReactNode;}>) {
   return (
-    <html lang="en" className="!text-black">
+    <html lang="en">
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" />        <style>{`
         :root {

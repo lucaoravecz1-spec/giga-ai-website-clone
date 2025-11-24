@@ -21,7 +21,7 @@ export default function Home() {
           <CustomAgentsSection />
           <AgentCanvasDemo />
         </div>
-        <div className="container py-16 sm:py-24 !w-[1280px] !h-[1713px] !max-w-screen-xl">
+        <div className="container py-16 sm:py-24">
           <SmartSuggestionsSection />
           <div className="mt-16 sm:mt-24">
             <InsightsDemo />
