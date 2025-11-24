@@ -23,7 +23,7 @@ const FeatureCard = ({
 
 const SmartSuggestionsSection = () => {
   return (
-    <section className="bg-background py-24 lg:py-32 !w-full !h-[780px]">
+    <section className="bg-background py-24 lg:py-32 !w-full !h-[734px]">
       <div className="container">
         <div className="grid grid-cols-1 items-start gap-x-16 gap-y-16 lg:grid-cols-2">
           {/* Left Column */}
