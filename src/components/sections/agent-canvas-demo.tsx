@@ -60,7 +60,7 @@ export default function AgentCanvasDemo() {
   return (
     <section className="bg-black py-16 md:py-24 !w-full !h-[622px]">
       <div className="container mx-auto max-w-[1312px] px-4 md:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start !w-full !h-full">
           <div className="flex flex-col bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded-3xl p-8 md:p-12 !w-[1129px] !h-full">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-3">
