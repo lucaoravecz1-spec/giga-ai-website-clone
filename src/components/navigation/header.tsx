@@ -141,17 +141,15 @@ export default function Header() {
               </div>
             </nav>
 
-            {/* Auth Buttons - Far Right Corner */}
-            <div className="hidden lg:flex items-center gap-6">
-              <Link href="/login" className="text-base font-medium text-white/80 transition-colors hover:text-white">
-                Sign in
-              </Link>
-              <Link
-                href="/register"
-                className="bg-white text-black text-base font-medium py-3 px-6 rounded-full transition-transform hover:scale-105">
-
-                Sign up
-              </Link>
+            {/* Contact Info - Far Right Corner */}
+            <div className="hidden lg:flex items-center gap-3">
+              <Phone className="w-5 h-5 text-accent" />
+              <a 
+                href="tel:2168702494"
+                className="text-base font-medium text-white hover:text-accent transition-colors"
+              >
+                216 870 2494
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -209,22 +207,16 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Auth Links */}
+              {/* Contact Info */}
               <div className="flex flex-col gap-4 pt-4">
-                <Link
-                href="/login"
-                onClick={toggleMenu}
-                className="text-center text-lg font-medium text-white/80 hover:text-white py-3">
-
-                  Sign in
-                </Link>
-                <Link
-                href="/register"
-                onClick={toggleMenu}
-                className="text-center rounded-full bg-white py-4 text-lg font-medium text-black">
-
-                  Sign up
-                </Link>
+                <a
+                  href="tel:2168702494"
+                  onClick={toggleMenu}
+                  className="flex items-center justify-center gap-3 text-center rounded-full bg-accent py-4 text-lg font-medium text-white hover:bg-accent/90 transition-colors"
+                >
+                  <Phone className="w-5 h-5" />
+                  Contact us: 216 870 2494
+                </a>
               </div>
             </nav>
           </div>
