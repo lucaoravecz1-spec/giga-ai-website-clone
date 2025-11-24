@@ -15,22 +15,6 @@ const DriftLogo = () =>
     </span>
   </div>;
 
-
-const Soc2Badge = () =>
-<div className="border border-border rounded-xl p-3 flex flex-col justify-between items-center text-center !w-[26px] !h-[26px]">
-    <span className="text-sm font-medium text-text-tertiary !w-[30px] !h-5 !whitespace-pre-line"></span>
-    <span className="text-2xl font-bold text-text-primary leading-none !whitespace-pre-line"></span>
-    <span className="text-[8px] font-medium tracking-widest uppercase text-text-tertiary !whitespace-pre-line"></span>
-  </div>;
-
-
-const CompliantBadge = () =>
-<div className="border border-border rounded-full px-4 flex flex-col justify-center items-center text-center !w-[34%] !h-full">
-    <span className="text-xs font-semibold text-text-tertiary leading-none">Compliant</span>
-    <span className="text-2xl font-bold text-text-primary leading-tight !w-[43px] !h-[30px]">5+</span>
-  </div>;
-
-
 const footerLinkColumns = [
 {
   title: 'Product',
@@ -92,10 +76,6 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row gap-16 lg:gap-8">
             <div className="flex-shrink-0 lg:w-1/3">
               <DriftLogo />
-              <div className="flex gap-4 mt-8 !w-[270px] !h-[82px]">
-                <Soc2Badge />
-                <CompliantBadge />
-              </div>
             </div>
 
             <div className="flex-grow grid grid-cols-2 md:grid-cols-3 gap-8">
