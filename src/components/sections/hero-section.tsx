@@ -28,7 +28,7 @@ const HeroSection = () => {
         }}>
 
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/0cdc52da-1c8b-467b-8c37-4a187c0cfb9d-giga-ai/assets/images/x1ioW6hoCO0EWJfApnLyqDWxrs-1.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Screenshot-2025-11-26-at-3.24.56-PM-1764188787126.png"
           alt="A vast mountain range with misty valleys at sunrise, representing scale and sophistication."
           layout="fill"
           objectFit="cover"
